@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Sites</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<nav class="navbar">
+    <a href="#home" class="logo"><i id="logo-icon" class='bx bxs-badge-check'></i>Stragetic Sites</a>
+
+    <div class="hamburger" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#home"><i class='bx bxs-home-alt-2'></i>Home</a></li>
+        <li><a href="#aboutus"><i class='bx bxs-briefcase'></i>About Us</a></li> 
+        <li><a href="#services"><i class='bx bxs-server'></i>Services</a></li>   
+        <li><a href="#contact"><i class='bx bxs-envelope'></i>Contact</a></li>
+    </ul>
+
+    <!-- ADD THIS DARK MODE TOGGLE BUTTON -->
+    <div class="theme-toggle" id="theme-toggle" title="Toggle Dark/Light Mode">
+        <i class='bx bxs-moon' id="theme-icon"></i>
+    </div>
+</nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home active-section">
+        <div class="home-content">
+            <h1>Welcome To <span>Strategic Sites</span></h1>
+            <p class="home-par">
+                As a <mark>Web Developer and Designer</mark>, I bridge the gap between bold visual design and seamless functional performance.<br>
+                My top priority is <mark>client success:</mark> I don't just build websites, I build relationships. When you work with me, you get a dedicated partner who is 100% committed to bringing your vision to life, supporting your goals, and ensuring your online presence stands out.
+            </p>
+
+            <!-- Wave Image -->
+            <div class="wave-img">
+                <img src="Greeting-Emoji-PNG-Transparent.png" alt="High Quality Image Of A Emoji Waving" title="Welcome To Strategic Sites">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="aboutus" class="aboutus">
+        <div class="aboutus-content">
+            <h1>About us</h1>
+            <p class="aboutus-par">We don't build boring websites. We craft immersive digital experiences and killer portfolios that feel alive, hit hard, and keep people hooked from the second they land. Stand out, move fast, and leave a mark.
+                <br><br><br>
+                At our core, we combine strategic design with robust web development to help businesses stand out and scale online. What truly sets us apart is our hands-on commitment: we don't just deliver a finished site and walk away. We immerse ourselves in your brand's mission, align with your specific goals, and work side-by-side with you from initial strategy to post-launch growth. Your success is our success, and we are fully dedicated to building digital experiences that drive real results.
+            </p>
+            <h2>Our Set Of Skills</h2>
+            <div>
+                <ul>
+                    <li>UX and UI Design</li>
+                    <li><span>Porfolio Web Development/Design</span></li>
+                    <li><span>eCommerce Store Design</span></li>
+                    <li>Online MarketPlace</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="services-content">
+
+            <h1>What We Offer [ Servives ]</h1>
+
+            <div class="services-h-p">
+
+                <!-- Card 1 -->
+                <div class="service-box">
+                    <h2>UX and UI Design</h2>
+                    <p>UX (User Experience) design focuses on how a website or app works—ensuring it is smooth, intuitive, and easy for visitors to navigate.
+                        <br><br>
+                        UI (User Interface) design focuses on how it looks—crafting the visual aesthetic through colors, typography, buttons, and layout. In short, UX builds the functional journey, while UI styles the visual presentation.
+                    </p>
+
+                    <div class="btn-group">
+                        <label class="order-btnn"><mark>Order Now</mark>: 55$ <span>100$</span></label>
+                        <input class="order-btn" type="button" value="Order Now">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-box">
+                    <h2>Online Marketplace Design</h2>
+                    <p>An online marketplace is a digital platform or website that connects multiple independent third-party sellers with buyers in one place.
+                        <br><br>
+                        Think of it like a digital shopping mall: the marketplace operator manages the platform, payment processing, and trust infrastructure, while individual vendors list and sell their own products or services.
+                    </p>
+
+                    <div class="btn-group">
+                        <label class="order-btnn"><mark>Order Now</mark>: 550$ <span>1200$</span></label>
+                        <input class="order-btn" type="button" value="Order Now">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <div class="contact-content">
+
+        <h1>Contact Us</h1>
+
+        <div class="contact-box">
+           <!-- Correct setup -->
+<form action="https://formsubmit.co/grizzpod@outlook.com" method="POST" class="contact-form">
+                
+                <!-- Disable spam captcha (Optional) -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Full Name Field with Limits -->
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter your full name" required minlength="2" maxlength="50">
+                </div>
+
+                <!-- Email Address Field -->
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+                </div>
+
+                <!-- Preferred Contact Method Choice -->
+                <div class="form-group">
+                    <label for="contact-method">How should we contact you?</label>
+                    <select id="contact-method" name="Preferred_Contact_Method" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="Email">Email</option>
+                        <option value="Phone Call">Phone Call</option>
+                        <option value="Text Message">Text Message</option>
+                    </select>
+                </div>
+
+                <!-- Message / Response Textarea with Limits -->
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="Message" rows="5" placeholder="Leave your response or project details..." required minlength="10" maxlength="500"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="order-btn submit-btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // 1. SELECT ALL ELEMENTS
+    const hamburger = document.getElementById('hamburger-menu');
+    const navMenu = document.getElementById('nav-links');
+    const navLinks = document.querySelectorAll('a[href^="#"]');
+    const sections = document.querySelectorAll('section');
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+
+    // 2. CHECK SAVED THEME ON LOAD
+    if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+        if (themeIcon) themeIcon.classList.replace('bxs-moon', 'bxs-sun');
+    }
+
+    // 3. DARK MODE CLICK EVENT
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+
+            if (document.body.classList.contains('dark-mode')) {
+                if (themeIcon) themeIcon.classList.replace('bxs-moon', 'bxs-sun');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                if (themeIcon) themeIcon.classList.replace('bxs-sun', 'bxs-moon');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    }
+
+    // 4. HAMBURGER MENU TOGGLE
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    }
+
+    // 5. SECTION SWITCHING LOGIC
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const targetId = link.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            if (targetSection) {
+                e.preventDefault();
+
+                sections.forEach(sec => sec.classList.remove('active-section'));
+                targetSection.classList.add('active-section');
+                
+                if (navMenu) navMenu.classList.remove('active');
+
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
